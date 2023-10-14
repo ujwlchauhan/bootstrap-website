@@ -1,0 +1,258 @@
+/*NAVBAR*/
+.navbar-brand {
+  font-family: "Festive", cursive;
+  font-weight: bold;
+  font-size: 35px;
+  color: #141414;
+}
+.navbar-brand:hover {
+  color: #b2b8a3;
+}
+/*NAV-BUTTON*/
+.button1 {
+  margin: 5px 2px;
+}
+.button2 {
+  margin: 5px 2px;
+  background-color: #bf1363;
+  color: white;
+}
+.button2:hover {
+  background-color: #ffbcbc;
+  color: white;
+}
+/*NAV-LINK*/
+
+.navbar-nav .dropdown:hover .dropdown-menu {
+  display: block;
+}
+.nav-link {
+  color: black;
+  margin: 2px 2px;
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+.nav-link:hover {
+  color: #bf1363;
+}
+.nav-link a:hover {
+  color: #bf1363;
+}
+.navbar-nav .dropdown-menu a:hover {
+  color: #bf1363;
+}
+
+/*NAV-SEARCH*/
+.fa-ad {
+  font-size: 8mm;
+}
+.searchbar {
+  border: none;
+}
+.fas:active {
+  transform: translateY(4px);
+}
+
+/*MIDDLE PART*/
+.middle {
+  background-color: #f8eded;
+}
+
+.middle .row {
+  padding: 5mm;
+}
+.textTop {
+  text-align: left;
+  padding: 2.7cm 1cm 1cm 1.5cm;
+}
+.textTop h1 {
+  font-size: 1.25cm;
+  font-weight: bold;
+}
+.textTop p {
+  font-size: 5mm;
+  padding-top: 3mm;
+}
+.button3 {
+  color: white;
+  background-color: #bf1363;
+  margin-top: 2mm;
+}
+.imageTop {
+  padding: 3mm;
+  text-align: center;
+}
+
+/*MIDDLE PART-2*/
+.mid12 {
+  padding: 0cm 0.4cm;
+}
+.middlep2 .row {
+  text-align: center;
+}
+.middlep2.row a {
+  text-align: center;
+}
+.middlep2 {
+  padding-top: 1cm;
+}
+.m23:hover {
+  color: #bf1363;
+}
+
+.popular1 {
+  color: #bf1363;
+}
+.middlep2 a button:hover {
+  background-color: #ccc;
+}
+/* middle p 2 a */
+.middlep2a {
+  text-align: center;
+  padding-top: 1cm;
+}
+.middlep2a a {
+  margin: 0 1mm;
+}
+.middlep2a .mid09 {
+  display: contents;
+}
+.middlep2a a button {
+  padding: 1mm 5mm;
+  font-weight: bold;
+  background-color: transparent;
+}
+.middlep2a a button:hover {
+  background-color: #ccc;
+}
+.middlep2a hr {
+  border-style: solid;
+  border-width: 0.6mm 0 0 0;
+  border-color: #ccc;
+  width: 100%;
+}
+.carousel-control-prev .fa-angle-left {
+  color: #ccc;
+  font-size: 8mm;
+  font-weight: bolder;
+}
+.carousel-control-next .fa-angle-right {
+  color: #ccc;
+  font-size: 8mm;
+  font-weight: bolder;
+}
+
+/*CARDS*/
+.middle3 .row {
+  padding: 5mm;
+  background-color: white;
+}
+
+.middle3 .card {
+  margin: 3mm;
+  border-style: none;
+  background-color: transparent;
+}
+.middle3 {
+  background-color: white;
+}
+.card-footer {
+  background-color: transparent;
+  padding-left: 0%;
+  padding-right: 0%;
+  padding-top: 1mm;
+  display: inline-block;
+}
+.card-img {
+  border-radius: 2mm;
+  padding: 0%;
+}
+.card-footer img {
+  border-radius: 100%;
+  width: 7mm;
+  height: 7mm;
+}
+.card-footer button {
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #fff;
+  background: #ccc;
+  border-style: none;
+  box-shadow: none;
+  border-radius: 1mm;
+}
+.card-footer button:hover {
+  background-color: #bf1363;
+}
+.card-footer .fas {
+  color: #ccc;
+}
+.card-footer .fas:hover {
+  color: #bf1363;
+}
+.card-footer li {
+  list-style-type: none;
+  padding: 0 0.8mm;
+  display: inline-block;
+}
+.span2 {
+  color: #ccc;
+  font-size: 3.5mm;
+  float: right;
+}
+
+.bt123 {
+  text-align: center;
+  padding: 5mm;
+}
+.r123 {
+  display: inline;
+}
+.bt109 {
+  background-color: #bf1363;
+  color: #f8eded;
+  margin-right: 1cm;
+  border-radius: 2mm;
+}
+.bt109:hover {
+  color: #f8eded;
+}
+
+.footer {
+  margin-bottom: 0%;
+  margin-top: 5mm;
+}
+.footer li {
+  list-style-type: none;
+  text-align: left;
+}
+.footer a {
+  text-decoration: none;
+  color: #141414;
+}
+
+@media screen and (max-width: 764px) {
+  .textTop {
+    padding-top: 1cm;
+    text-align: center;
+  }
+  .imageTop img {
+    width: 100%;
+  }
+  .middlep2 {
+    display: none;
+  }
+  .footer .r15 div {
+    padding: 5mm;
+  }
+}
+@media screen and (min-width: 764px) {
+  .middlep2a {
+    display: none;
+  }
+  .footer {
+    padding: 8mm 2.7cm;
+  }
+}
